@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <style>
+    /* Estilos para los botones */
+    .button {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin: 5px;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Estilos para la barra de navegación */
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul li {
+      float: left;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    /* Estilos para el contenido principal */
+    main {
+      margin-top: 60px; /* Ajusta el margen superior para que no se solape con la barra de navegación */
+      padding: 20px;
+    }
+
+    /* Estilos para las secciones */
+    section {
+      margin-bottom: 30px;
+    }
+
+    /* Estilos para las imágenes */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Estilos para el pie de página */
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;">Mi Página Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio" class="button">Inicio</a></li>
+        <li><a href="#acerca" class="button">Acerca de</a></li>
+        <li><a href="#servicios" class="button">Servicios</a></li>
+        <li><a href="#contacto" class="button">Contacto</a></li>
+        <li><a href="video.html" class="button">Ver Video</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenido a mi página web</h2>
+      <p>Este es un sitio web de ejemplo para mostrar cómo puedes usar HTML para estructurar tu contenido.</p>
+    </section>
+
+    <section id="acerca">
+      <h2>Acerca de Nosotros</h2>
+      <p>Somos una empresa dedicada a la comparación de autos de competición</p>
+      <img src="mazda.jpeg" width="450" height="300" alt=""/>
+    </section>
+
+    <section id="servicios">
+      <h2>Nuestros Servicios</h2>
+      <ul>
+        <li><a href="https://motor.elpais.com/actualidad/coches-de-record-guinness-rarezas-sobre-cuatro-ruedas/" class="button">Records Guinness de Autos</a></li>
+        <li><a href="https://rentingfinders.com/blog/novedades-curiosidades/los-coches-mas-odiados-de-la-historia/" class="button">Autos más Odiados</a></li>
+        <li><a href="https://ar.motor1.com/news/594215/autos-mas-vendidos/" class="button">Autos más Amados</a></li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes contactarnos en...</p>
+      <a href="gamboamkevin32@gmail.com" class="button"> gamboamkevin32@gmail.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mi Página Web</p>
+  </footer>
+</body>
+</html>
